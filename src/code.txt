@@ -4,9 +4,8 @@ line 2
 
 line 5
 these were changed in dev1
-
+changed on bug1
 
 Its a good idea to specify what gets pushed
   git push origin dev1
   dev1 is the branch
-  
