@@ -1,0 +1,18 @@
+# Ignore Everything
+*
+
+#But Don't Ignore These
+!.gitignore
+!dataBase/
+!dataBase/SubDistricts/
+!dataBase/SubDistricts/New/
+!dataBase/SubDistricts/New/*.json
+
+
+!dataBase/streetSweepTimes.json
+
+!dataBase/tools/
+!dataBase/tools/*.py
+
+# MAC Hidden Files
+.DS_Store
