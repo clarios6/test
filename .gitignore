@@ -1,18 +1,33 @@
-# Ignore Everything
+# Ignore everything
 *
 
-#But Don't Ignore These
+# But do not Ignore these files...
 !.gitignore
+
+!src
+!src/**
+
+!libs
+!libs/**
+
 !dataBase/
 !dataBase/SubDistricts/
 !dataBase/SubDistricts/New/
 !dataBase/SubDistricts/New/*.json
-
-
 !dataBase/streetSweepTimes.json
-
 !dataBase/tools/
 !dataBase/tools/*.py
 
-# MAC Hidden Files
+
+
+!*.txt
+!*.md
+!*.jpg
+!*.png
+
+
+# MAC HIDDEN FILES
 .DS_Store
+
+
+#Additional Specific files to Ignore
